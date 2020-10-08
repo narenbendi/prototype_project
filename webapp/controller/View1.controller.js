@@ -5,7 +5,12 @@ sap.ui.define([
 
 	return Controller.extend("com.example.testdynamic.controller.View1", {
 		onInit: function () {
+			
 
+		},
+		
+		onExit: function() {
+			
 		}
 	});
 });
